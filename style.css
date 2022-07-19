@@ -1,0 +1,49 @@
+.custom-brand-name {
+  float: right;
+  margin-top: 9px;
+  margin-left: 10px;
+}
+
+.title {
+  text-align: left;
+  margin-top: 25px;
+}
+
+.time {
+  text-align: left;
+  margin-top: 5px;
+}
+
+.custom-text {
+  font-size: 18px;
+  margin-top: 10px;
+  border-color: #ababab;
+  resize: none;
+}
+
+.custom-input {
+  font-size: 18px;
+  margin-top: 6px;
+  border-color: #ababab;
+}
+
+button {
+  margin-top: 15px;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(104, 140, 240, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: skyblue;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+}
