@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Calculate Reading Time</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand">
+          <img
+            src="icon.png"
+            alt=""
+            width="40"
+            height="40"
+            class="d-inline-block align-text-top"
+          />
+          <span class="custom-brand-name">Calculate Reading Time</span>
+        </a>
+      </div>
+    </nav>
+    <div class="container text-center">
+      <h3 class="title">
+        This site calculates the time required to read a text!
+      </h3>
+      <h4 class="time" id="time"></h4>
+      <textarea
+        name="article-text"
+        id="text"
+        rows="12"
+        class="form-control custom-text"
+        autofocus
+        placeholder="copy and paste the text here..."
+      ></textarea>
+      <input
+        type="number"
+        name="wpm"
+        id="wpm"
+        class="form-control custom-input"
+        placeholder="How many words can you read per minute?"
+      />
+      <div class="d-grid gap-2">
+        <button
+          onclick="readingTime()"
+          class="btn btn-primary btn-lg"
+          type="button"
+        >
+          Calculate Time
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
